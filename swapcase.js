@@ -14,7 +14,9 @@ for(letter of Salpha){
 }
 
 // Sample Input
-let myStr = "sHiPrA" // Output --> aDaRSH
+let prompt = require('prompt-sync')();
+
+let myStr = prompt("Enter your word : ")
 
 // Splits the letters of word and stores them in the list 
 let myArr = myStr.split("");
